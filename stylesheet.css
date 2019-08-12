@@ -1,7 +1,7 @@
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 15px;
     font-family: arial, sans-serif;
     font-size: 15px;
   }
@@ -9,6 +9,17 @@ ul {
   li {
     display: inline;
   }
+
+a {
+    color: #5a5a5a;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
   input[type=submit] {
     margin: 11px;
@@ -47,5 +58,12 @@ input[type=text] {
     width: 454px;
     height: 34px;
     margin: 11px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
